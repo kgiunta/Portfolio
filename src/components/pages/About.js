@@ -1,6 +1,7 @@
 import React from "react";
+import img from "../../images/quiz.png";
 
-export default function about() {
+export default function About() {
   return (
     <div>
       <h1>About Me</h1>
@@ -18,6 +19,7 @@ export default function about() {
         today! Feel free to reach out with any questions you may have. Happy
         browsing!
       </p>
+      <img src={img} />
     </div>
   );
 }
