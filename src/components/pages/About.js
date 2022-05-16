@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../../images/quiz.png";
 
 export default function About() {
   return (
@@ -19,7 +18,6 @@ export default function About() {
         today! Feel free to reach out with any questions you may have. Happy
         browsing!
       </p>
-      <img src={img} />
     </div>
   );
 }
