@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.929fcd85.css",
+    "main.js": "/portfolio/static/js/main.2d0ebf0e.js",
+    "static/media/boatbreakers.png": "/portfolio/static/media/boatbreakers.107505f3a1dcc43e32d5.png",
+    "static/media/tunes.png": "/portfolio/static/media/tunes.e3e1ba2c4aefc36a4381.png",
+    "static/media/meal planner.png": "/portfolio/static/media/meal planner.efd424d8f92d150899c9.png",
+    "static/media/weather.png": "/portfolio/static/media/weather.0c882cca02012e03f7b3.png",
+    "static/media/header.jpg": "/portfolio/static/media/header.e0146455e09413026472.jpg",
+    "static/media/Linkedin-Icon.png": "/portfolio/static/media/Linkedin-Icon.5be351e0a45fe2fa7953.png",
+    "static/media/me.jpg": "/portfolio/static/media/me.1ba06f5b6a623be04ee5.jpg",
+    "static/media/quiz.png": "/portfolio/static/media/quiz.0d5c54a706250cb1948a.png",
+    "static/media/notetaker.png": "/portfolio/static/media/notetaker.c8ebf13dd3bd778b7c43.png",
+    "index.html": "/portfolio/index.html",
+    "main.929fcd85.css.map": "/portfolio/static/css/main.929fcd85.css.map",
+    "main.2d0ebf0e.js.map": "/portfolio/static/js/main.2d0ebf0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.929fcd85.css",
+    "static/js/main.2d0ebf0e.js"
+  ]
+}
