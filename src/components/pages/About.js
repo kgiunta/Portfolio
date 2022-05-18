@@ -1,9 +1,11 @@
 import React from "react";
+import self from "../../images/me.jpg";
 
 export default function About() {
   return (
     <div>
       <h1>About Me</h1>
+      <img className="self" src={self} alt="Picture of Kyle" />
       <p>
         Thank you for checking out my page and welcome to my portfolio! My name
         is Kyle Giunta, if the header wasn't obvious enough. I have a background
