@@ -194,3 +194,47 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 560px) {
+  .link1Container,
+  .link2Container,
+  .link3Container,
+  .link4Container,
+  .link5Container,
+  .link6Container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  .self {
+    display: flex;
+    justify-content: center;
+  }
+  .link1Container:hover .link1,
+  .link2Container:hover .link2,
+  .link3Container:hover .link3,
+  .link4Container:hover .link4,
+  .link5Container:hover .link5,
+  .link6Container:hover .link6 {
+    transition: ease;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Times New Roman", Times, serif;
+    color: #f8f8f8;
+    background-color: rgba(54, 255, 255, 0.5);
+    width: 80%;
+    height: 97%;
+    align-items: center;
+    justify-content: center;
+    transition: 500ms linear;
+  }
+  .nameKyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
