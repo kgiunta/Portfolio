@@ -60,6 +60,14 @@ h1 {
   margin: 10px;
   align-items: center;
 }
+.emails {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 90%;
+  margin: 10px;
+  align-items: center;
+}
 
 ul {
   display: flex;
@@ -138,7 +146,7 @@ form {
   font-family: "Times New Roman", Times, serif;
   color: #f8f8f8;
   background-color: rgba(54, 255, 255, 0.5);
-  width: 56%;
+  width: 66%;
   height: 97%;
   align-items: center;
   justify-content: center;
