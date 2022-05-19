@@ -17,11 +17,7 @@ function Footer() {
         <a href="https://github.com/kgiunta" target="_blank" rel="noreferrer">
           <img className="github" src={github} alt="github logo" />{" "}
         </a>
-        <a
-          href="mailto:abc@example.com?subject = Saw Your Portfolio"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="mailto:developerkylegiunta@gmail.com?subject=Saw Your Portfolio!">
           <img className="emails" src={emails} alt="email Kyle link" />
         </a>
       </footer>

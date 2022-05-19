@@ -60,7 +60,7 @@ export default function Portfolio() {
         <div className="link4Container">
           <p className="link4">
             <a
-              style={{ color: "white" }}
+              style={{ color: "white", fontFamily: "Anton" }}
               href="https://github.com/kgiunta/newNoteTaker"
             >
               Repository
