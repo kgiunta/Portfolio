@@ -59,12 +59,7 @@ export default function Portfolio() {
 
         <div className="link4Container">
           <p className="link4">
-            <a
-              style={{ color: "white", fontFamily: "Anton" }}
-              href="https://github.com/kgiunta/newNoteTaker"
-            >
-              Repository
-            </a>
+            <a href="https://github.com/kgiunta/newNoteTaker">Repository</a>
             <a href="https://safe-hollows-67860.herokuapp.com/">
               Deployed Link
             </a>
