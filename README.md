@@ -16,7 +16,7 @@ Below are the table of contents for first-portfolio
 
 This project started from a blank file and was written out locally. After a few days refactoring the code I pushed to github to store the desktop responsive version. Finally after updating the mobile responsiveness I pushed up and finalized this project on github.
 
-This can be found at https://github.com/kgiunta/portfolio or https://kgiunta.github.io/first-portfolio/
+This can be found at https://github.com/kgiunta/portfolio or https://kgiunta.github.io/portfolio/
 
 ## Usage
 
