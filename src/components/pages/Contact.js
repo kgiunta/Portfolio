@@ -62,7 +62,7 @@
 
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
-function ContactForm() {
+export default function ContactForm() {
   const [state, handleSubmit] = useForm("xzboylrv");
   if (state.succeeded) {
     return <p className="emailReturn">Thanks For Reaching Out!</p>;
@@ -96,4 +96,4 @@ function ContactForm() {
 function Contact() {
   return <ContactForm />;
 }
-export default Contact;
+// export default Contact;

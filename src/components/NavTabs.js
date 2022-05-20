@@ -40,7 +40,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               href="https://drive.google.com/file/d/1urxbviHRClUhQ-CDShzgh8uHnOhDxtoL/view?usp=sharing"
               target="_blank"
               rel="noreferer noopener"
-              onClick={() => handlePageChange("Resume")}
+              // onClick={() => handlePageChange("Resume")}
               className={
                 currentPage === "Resume" ? "nav-link active" : "nav-link"
               }
@@ -51,7 +51,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <li className="nav-item nav-link-custom">
             <Link
               to={"/portfolio/contact"}
-              onClick={() => handlePageChange("Contact")}
+              // onClick={() => handlePageChange("Contact")}
               className={
                 currentPage === "Contact" ? "nav-link active" : "nav-link"
               }
