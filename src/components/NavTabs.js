@@ -14,8 +14,8 @@ function NavTabs({ currentPage, handlePageChange }) {
             whileHover={{ scale: 1.1 }}
           >
             <Link
-              to={"/"}
-              onClick={() => handlePageChange("About")}
+              to={"/portfolio/"}
+              // onClick={() => handlePageChange("About")}
               className={
                 currentPage === "About" ? "nav-link active" : "nav-link"
               }
@@ -25,8 +25,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           </motion.li>
           <li className="nav-item nav-link-custom">
             <Link
-              to={"/myPortfolio"}
-              onClick={() => handlePageChange("Portfolio")}
+              to={"/portfolio/myPortfolio"}
+              // onClick={() => handlePageChange("Portfolio")}
               className={
                 currentPage === "Portfolio" ? "nav-link active" : "nav-link"
               }
@@ -50,7 +50,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           </li>
           <li className="nav-item nav-link-custom">
             <Link
-              to={"/contact"}
+              to={"/portfolio/contact"}
               onClick={() => handlePageChange("Contact")}
               className={
                 currentPage === "Contact" ? "nav-link active" : "nav-link"
