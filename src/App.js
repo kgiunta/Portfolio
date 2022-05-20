@@ -1,6 +1,6 @@
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./components/pages/About";
 import ContactForm from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
