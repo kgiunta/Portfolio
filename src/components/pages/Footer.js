@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import linkedin from "../../images/Linkedin-Icon.png";
 import github from "../../images/github.png";
 import emails from "../../images/email-logo-png.png";
@@ -12,13 +13,28 @@ function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <img className="linkedin" src={linkedin} alt="linkedin logo" />
+          <motion.img
+            className="linkedin"
+            src={linkedin}
+            alt="linkedin logo"
+            whileHover={{ scale: 1.2 }}
+          />
         </a>
         <a href="https://github.com/kgiunta" target="_blank" rel="noreferrer">
-          <img className="github" src={github} alt="github logo" />{" "}
+          <motion.img
+            className="github"
+            src={github}
+            alt="github logo"
+            whileHover={{ scale: 1.2 }}
+          />{" "}
         </a>
         <a href="mailto:developerkylegiunta@gmail.com?subject=Saw Your Portfolio!">
-          <img className="emails" src={emails} alt="email Kyle link" />
+          <motion.img
+            className="emails"
+            src={emails}
+            alt="email Kyle link"
+            whileHover={{ scale: 1.2 }}
+          />
         </a>
       </footer>
     </div>

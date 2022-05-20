@@ -1,5 +1,6 @@
 import React from "react";
 import header from "../images/header.jpg";
+import { motion } from "framer-motion";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -7,9 +8,12 @@ function NavTabs({ currentPage, handlePageChange }) {
       <div className="fullHeader">
         <h1 className="nameKyle"> Kyle Giunta</h1>
         <ul className="nav nav-tabs">
-          <li className="nav-item nav-link-custom">
+          <motion.li
+            className="nav-item nav-link-custom"
+            whileHover={{ scale: 1.1 }}
+          >
             <a
-              href="#about"
+              href="/"
               onClick={() => handlePageChange("About")}
               className={
                 currentPage === "About" ? "nav-link active" : "nav-link"
@@ -17,10 +21,10 @@ function NavTabs({ currentPage, handlePageChange }) {
             >
               About
             </a>
-          </li>
+          </motion.li>
           <li className="nav-item nav-link-custom">
             <a
-              href="#portfolio"
+              href="/portfolio"
               onClick={() => handlePageChange("Portfolio")}
               className={
                 currentPage === "Portfolio" ? "nav-link active" : "nav-link"
@@ -44,7 +48,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           </li>
           <li className="nav-item nav-link-custom">
             <a
-              href="#contact"
+              href="/contact"
               onClick={() => handlePageChange("Contact")}
               className={
                 currentPage === "Contact" ? "nav-link active" : "nav-link"

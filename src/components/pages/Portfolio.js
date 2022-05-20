@@ -7,6 +7,7 @@ import meal from "../../images/meal planner.png";
 import note from "../../images/notetaker.png";
 import tunes from "../../images/tunes.png";
 import weather from "../../images/weather.png";
+import { motion } from "framer-motion";
 
 export default function Portfolio() {
   return (
@@ -19,7 +20,7 @@ export default function Portfolio() {
             <a href="https://github.com/kgiunta/BoatBreakers">Repository</a>
             <a href="https://kgiunta.github.io/BoatBreakers/">Deployed Link</a>
           </p>
-          <img
+          <motion.img
             className="images"
             src={boatbreaker}
             alt="website for vloggers"
