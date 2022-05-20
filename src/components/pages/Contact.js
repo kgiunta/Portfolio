@@ -93,7 +93,7 @@ export default function ContactForm() {
     </form>
   );
 }
-function Contact() {
-  return <ContactForm />;
-}
-// export default Contact;
+// function Contact() {
+//   return <ContactForm />;
+// }
+// export default ContactForm;
