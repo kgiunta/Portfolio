@@ -14,7 +14,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             whileHover={{ scale: 1.1 }}
           >
             <Link
-              to={"/portfolio/"}
+              to={"/"}
               // onClick={() => handlePageChange("About")}
               className={
                 currentPage === "About" ? "nav-link active" : "nav-link"
