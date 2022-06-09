@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/portfolio.css";
-
+import finance from "../../images/finance.png";
 import boatbreaker from "../../images/boatbreakers.png";
 import quiz from "../../images/quiz.png";
 import meal from "../../images/meal planner.png";
@@ -17,12 +17,14 @@ export default function Portfolio() {
         {/* display none and on hover show two links??? */}
         <div className="link1Container">
           <p className="link1">
-            <a href="https://github.com/kgiunta/BoatBreakers">Repository</a>
-            <a href="https://kgiunta.github.io/BoatBreakers/">Deployed Link</a>
+            <a href="https://github.com/kgiunta/Finance-Tracker">Repository</a>
+            <a href="https://kgiunta.github.io/Finance-Tracker/">
+              Deployed Link
+            </a>
           </p>
           <motion.img
             className="images"
-            src={boatbreaker}
+            src={finance}
             alt="website for vloggers"
           />
         </div>
