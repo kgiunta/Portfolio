@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.86a8398a.css",
-    "main.js": "/portfolio/static/js/main.756f8f0a.js",
+    "main.js": "/portfolio/static/js/main.0e7d111f.js",
     "static/media/boatbreakers.png": "/portfolio/static/media/boatbreakers.107505f3a1dcc43e32d5.png",
     "static/media/tunes.png": "/portfolio/static/media/tunes.e3e1ba2c4aefc36a4381.png",
     "static/media/meal planner.png": "/portfolio/static/media/meal planner.efd424d8f92d150899c9.png",
     "static/media/weather.png": "/portfolio/static/media/weather.0c882cca02012e03f7b3.png",
     "static/media/header.jpg": "/portfolio/static/media/header.e0146455e09413026472.jpg",
+    "static/media/finance.png": "/portfolio/static/media/finance.fc2a54e3b701a256338b.png",
     "static/media/Linkedin-Icon.png": "/portfolio/static/media/Linkedin-Icon.5be351e0a45fe2fa7953.png",
     "static/media/me.jpg": "/portfolio/static/media/me.1ba06f5b6a623be04ee5.jpg",
     "static/media/quiz.png": "/portfolio/static/media/quiz.0d5c54a706250cb1948a.png",
@@ -14,10 +15,10 @@
     "static/media/email-logo-png.png": "/portfolio/static/media/email-logo-png.e40b5f467ec304f45670.png",
     "index.html": "/portfolio/index.html",
     "main.86a8398a.css.map": "/portfolio/static/css/main.86a8398a.css.map",
-    "main.756f8f0a.js.map": "/portfolio/static/js/main.756f8f0a.js.map"
+    "main.0e7d111f.js.map": "/portfolio/static/js/main.0e7d111f.js.map"
   },
   "entrypoints": [
     "static/css/main.86a8398a.css",
-    "static/js/main.756f8f0a.js"
+    "static/js/main.0e7d111f.js"
   ]
 }
