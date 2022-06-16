@@ -16,27 +16,29 @@ export default function Portfolio() {
       <div id="gallery">
         {/* display none and on hover show two links??? */}
         <div className="link1Container">
-          <p className="link1">
-            <a href="https://github.com/kgiunta/Finance-Tracker">Repository</a>
-            <a href="https://kgiunta.github.io/Finance-Tracker/">
-              Deployed Link
-            </a>
-          </p>
-          <motion.img
-            className="images"
-            src={finance}
-            alt="website for vloggers"
-          />
+          <div className="content">
+            <img className="front" src={finance} alt="website for vloggers" />
+            <p className="back">
+              <a href="https://github.com/kgiunta/Finance-Tracker">
+                Repository
+              </a>
+              <a href="https://kgiunta.github.io/Finance-Tracker/">
+                Deployed Link
+              </a>
+            </p>
+          </div>
         </div>
 
         {/* https://github.com/kgiunta/BoatBreakers */}
         {/* https://kgiunta.github.io/BoatBreakers/ */}
         <div className="link2Container">
-          <p className="link2">
-            <a href="https://github.com/kgiunta/timedQuiz">Repository</a>
-            <a href="https://kgiunta.github.io/timedQuiz/ ">Deployed Link</a>
-          </p>
-          <img className="images" src={quiz} alt="Home page of a quiz" />
+          <div className="content">
+            <img className="front2" src={quiz} alt="Home page of a quiz" />
+            <p className="back2">
+              <a href="https://github.com/kgiunta/timedQuiz">Repository</a>
+              <a href="https://kgiunta.github.io/timedQuiz/ ">Deployed Link</a>
+            </p>
+          </div>
         </div>
 
         {/* https://github.com/kgiunta/timedQuiz */}

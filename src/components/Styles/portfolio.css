@@ -12,9 +12,8 @@ a:active {
   margin: 5px;
 }
 
- .submitBtn{
-
- }
+.submitBtn {
+}
 /* body {
   background-image: url("../../images/background.jpg");
   width: 100%;
@@ -116,7 +115,7 @@ form {
   background-color: black;
 }
 
-.link1Container,
+/* .link1Container, */
 .link2Container,
 .link3Container,
 .link4Container,
@@ -126,7 +125,53 @@ form {
   justify-content: center;
   position: relative;
   width: 33%;
-  transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+  perspective: 1000px;
+}
+
+.link1Container,
+.link2Container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 33%;
+  perspective: 1000px;
+}
+
+.content,
+.content2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.link1Container:hover .content,
+.link2Container:hover .content {
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}
+
+.front,
+.back,
+.front2,
+.back2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  line-height: 300px;
+  text-align: center;
+  border-radius: 5px;
+  backface-visibility: hidden;
+  background-color: #dcdcdc;
+  font-family: "Anton", Times, serif;
+}
+
+.back,
+.back2 {
+  transform: rotateY(180deg);
 }
 
 .link1,
@@ -140,7 +185,6 @@ form {
   display: none;
 }
 
-.link1Container:hover .link1,
 .link2Container:hover .link2,
 .link3Container:hover .link3,
 .link4Container:hover .link4,
@@ -159,7 +203,7 @@ form {
   height: 250px;
   align-items: center;
   justify-content: center;
-  transition: 500ms linear;
+  /* transition: 500ms linear;  */
 }
 
 .nameInput {
