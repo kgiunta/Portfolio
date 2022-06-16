@@ -37,7 +37,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
           <li className="nav-item nav-link-custom">
             <a
-              href="https://drive.google.com/file/d/1JGPyEWIBedR9fSFiZSQ4Y57Aw173i7ZN/view?usp=sharing"
+              href="https://drive.google.com/file/d/1f6TUgW2-6I5E5CkfhKc92PD6r6gy85J2/view?usp=sharing"
               target="_blank"
               rel="noreferer noopener"
               // onClick={() => handlePageChange("Resume")}
