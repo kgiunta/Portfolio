@@ -3,7 +3,7 @@ import self from "../../images/me.jpg";
 
 export default function About() {
   return (
-    <div>
+    <div style={{ "background-color": "black" }}>
       <h1>About Me</h1>
       <img className="self" src={self} alt="Picture of Kyle" />
       <p>

@@ -13,16 +13,13 @@ a:active {
 }
 
 .submitBtn {
-}
-/* body {
-  background-image: url("../../images/background.jpg");
-  width: 100%;
-  height: 100%;
-  background-color: black; /* fallback color */
-/* background-position: center;
-background-size: cover; */
-/* }  */
+  background-image: url(https://media.giphy.com/media/xU5eJlXYuSC23SmrYL/giphy.gif);
 
+  color: white;
+  font-size: 25px;
+  margin: 10px 0;
+  font-family: Monaco;
+}
 body {
   background-color: black;
 }
@@ -78,6 +75,7 @@ ul {
 form {
   display: flex;
   flex-direction: column;
+  font-family: Monaco;
 }
 
 .nav-link:hover {
@@ -268,6 +266,8 @@ form {
 footer {
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #nameInput {
